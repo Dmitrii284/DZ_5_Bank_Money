@@ -16,8 +16,6 @@ public:
 	Money(uint32_t rub, const std::string& panny);
 	Money (Money& money);
 	Money& operator+(const Money& money);
-
-
 	
 
 	void Print();

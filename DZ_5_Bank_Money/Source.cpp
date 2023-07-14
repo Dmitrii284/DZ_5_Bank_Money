@@ -44,7 +44,7 @@ Money& Money::operator+(const Money& money)
 	if (summaPenny >= 100)
 		summaPenny -= 100 * multiplier;
 
-	
+	return *this;
 }
 
 void Money::Print()
